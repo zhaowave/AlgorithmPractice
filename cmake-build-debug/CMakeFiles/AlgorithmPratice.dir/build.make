@@ -161,6 +161,32 @@ CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s
 
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o: ../DesignPatterns/StrategyPattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o: ../DesignPatterns/FlyweightPattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s
+
 # Object files for target AlgorithmPratice
 AlgorithmPratice_OBJECTS = \
 "CMakeFiles/AlgorithmPratice.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ AlgorithmPratice_OBJECTS = \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o" \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o" \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o" \
-"CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o"
+"CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o" \
+"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o" \
+"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
 
 # External object files for target AlgorithmPratice
 AlgorithmPratice_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/Qui
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o
+AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o
+AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/build.make
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable AlgorithmPratice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable AlgorithmPratice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlgorithmPratice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

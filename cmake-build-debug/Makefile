@@ -123,6 +123,60 @@ AlgorithmPratice/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/build
 .PHONY : AlgorithmPratice/fast
 
+DesignPatterns/FlyweightPattern.o: DesignPatterns/FlyweightPattern.cpp.o
+
+.PHONY : DesignPatterns/FlyweightPattern.o
+
+# target to build an object file
+DesignPatterns/FlyweightPattern.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o
+.PHONY : DesignPatterns/FlyweightPattern.cpp.o
+
+DesignPatterns/FlyweightPattern.i: DesignPatterns/FlyweightPattern.cpp.i
+
+.PHONY : DesignPatterns/FlyweightPattern.i
+
+# target to preprocess a source file
+DesignPatterns/FlyweightPattern.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i
+.PHONY : DesignPatterns/FlyweightPattern.cpp.i
+
+DesignPatterns/FlyweightPattern.s: DesignPatterns/FlyweightPattern.cpp.s
+
+.PHONY : DesignPatterns/FlyweightPattern.s
+
+# target to generate assembly for a file
+DesignPatterns/FlyweightPattern.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s
+.PHONY : DesignPatterns/FlyweightPattern.cpp.s
+
+DesignPatterns/StrategyPattern.o: DesignPatterns/StrategyPattern.cpp.o
+
+.PHONY : DesignPatterns/StrategyPattern.o
+
+# target to build an object file
+DesignPatterns/StrategyPattern.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o
+.PHONY : DesignPatterns/StrategyPattern.cpp.o
+
+DesignPatterns/StrategyPattern.i: DesignPatterns/StrategyPattern.cpp.i
+
+.PHONY : DesignPatterns/StrategyPattern.i
+
+# target to preprocess a source file
+DesignPatterns/StrategyPattern.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i
+.PHONY : DesignPatterns/StrategyPattern.cpp.i
+
+DesignPatterns/StrategyPattern.s: DesignPatterns/StrategyPattern.cpp.s
+
+.PHONY : DesignPatterns/StrategyPattern.s
+
+# target to generate assembly for a file
+DesignPatterns/StrategyPattern.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s
+.PHONY : DesignPatterns/StrategyPattern.cpp.s
+
 algorithm/DivideAndConquer/BinarySearch.o: algorithm/DivideAndConquer/BinarySearch.cpp.o
 
 .PHONY : algorithm/DivideAndConquer/BinarySearch.o
@@ -348,6 +402,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmPratice"
+	@echo "... DesignPatterns/FlyweightPattern.o"
+	@echo "... DesignPatterns/FlyweightPattern.i"
+	@echo "... DesignPatterns/FlyweightPattern.s"
+	@echo "... DesignPatterns/StrategyPattern.o"
+	@echo "... DesignPatterns/StrategyPattern.i"
+	@echo "... DesignPatterns/StrategyPattern.s"
 	@echo "... algorithm/DivideAndConquer/BinarySearch.o"
 	@echo "... algorithm/DivideAndConquer/BinarySearch.i"
 	@echo "... algorithm/DivideAndConquer/BinarySearch.s"

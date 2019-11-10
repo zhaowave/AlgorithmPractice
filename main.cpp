@@ -6,6 +6,9 @@
 #include "algorithm/DivideAndConquer/MergeSort.h"
 #include "algorithm/DivideAndConquer/QuictSort.h"
 
+#include "DesignPatterns/StrategyPattern.h"
+#include "DesignPatterns/FlyweightPattern.h"
+
 
 using namespace std;
 void RecPermute(string soFar, string rest)
@@ -66,5 +69,7 @@ int main() {
 //    int result = dc->binarySearch(arr, 0, arr.size() - 1, x);
 //    (result == -1) ? cout << "Element is not present in array"
 //                   : cout << "Element is present at index " << result;
+//    StrategyContex::stratetyTest();
+    FlyweightFactory::FlyweightTest();
     return 0;
 }

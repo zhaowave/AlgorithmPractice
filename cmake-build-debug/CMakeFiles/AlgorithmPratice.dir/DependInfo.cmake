@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+  "/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
   "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o"
   "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o"
   "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o"

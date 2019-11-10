@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.h">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.h">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
 		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
