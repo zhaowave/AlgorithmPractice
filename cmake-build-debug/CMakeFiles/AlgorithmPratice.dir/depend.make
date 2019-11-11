@@ -4,6 +4,9 @@
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o: ../DesignPatterns/FlyweightPattern.cpp
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o: ../DesignPatterns/FlyweightPattern.h
 
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o: ../DesignPatterns/SimpleFactoryPattern.cpp
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o: ../DesignPatterns/SimpleFactoryPattern.h
+
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o: ../DesignPatterns/StrategyPattern.cpp
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o: ../DesignPatterns/StrategyPattern.h
 
@@ -33,6 +36,7 @@ CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: ../algorithm/Solutio
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: ../algorithm/Solution39.h
 
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../DesignPatterns/FlyweightPattern.h
+CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../DesignPatterns/SimpleFactoryPattern.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../DesignPatterns/StrategyPattern.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/DivideAndConquer/BinarySearch.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/DivideAndConquer/DivideAndConquer.h

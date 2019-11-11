@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weizhao/Documents/develop/AlgorithmPratice
+CMAKE_SOURCE_DIR = /Users/zhaowei/Documents/code/AlgorithmPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ DesignPatterns/FlyweightPattern.s: DesignPatterns/FlyweightPattern.cpp.s
 DesignPatterns/FlyweightPattern.cpp.s:
 	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s
 .PHONY : DesignPatterns/FlyweightPattern.cpp.s
+
+DesignPatterns/SimpleFactoryPattern.o: DesignPatterns/SimpleFactoryPattern.cpp.o
+
+.PHONY : DesignPatterns/SimpleFactoryPattern.o
+
+# target to build an object file
+DesignPatterns/SimpleFactoryPattern.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o
+.PHONY : DesignPatterns/SimpleFactoryPattern.cpp.o
+
+DesignPatterns/SimpleFactoryPattern.i: DesignPatterns/SimpleFactoryPattern.cpp.i
+
+.PHONY : DesignPatterns/SimpleFactoryPattern.i
+
+# target to preprocess a source file
+DesignPatterns/SimpleFactoryPattern.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.i
+.PHONY : DesignPatterns/SimpleFactoryPattern.cpp.i
+
+DesignPatterns/SimpleFactoryPattern.s: DesignPatterns/SimpleFactoryPattern.cpp.s
+
+.PHONY : DesignPatterns/SimpleFactoryPattern.s
+
+# target to generate assembly for a file
+DesignPatterns/SimpleFactoryPattern.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.s
+.PHONY : DesignPatterns/SimpleFactoryPattern.cpp.s
 
 DesignPatterns/StrategyPattern.o: DesignPatterns/StrategyPattern.cpp.o
 
@@ -405,6 +432,9 @@ help:
 	@echo "... DesignPatterns/FlyweightPattern.o"
 	@echo "... DesignPatterns/FlyweightPattern.i"
 	@echo "... DesignPatterns/FlyweightPattern.s"
+	@echo "... DesignPatterns/SimpleFactoryPattern.o"
+	@echo "... DesignPatterns/SimpleFactoryPattern.i"
+	@echo "... DesignPatterns/SimpleFactoryPattern.s"
 	@echo "... DesignPatterns/StrategyPattern.o"
 	@echo "... DesignPatterns/StrategyPattern.i"
 	@echo "... DesignPatterns/StrategyPattern.s"

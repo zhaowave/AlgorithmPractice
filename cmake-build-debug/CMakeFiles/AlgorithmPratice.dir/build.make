@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weizhao/Documents/develop/AlgorithmPratice
+CMAKE_SOURCE_DIR = /Users/zhaowei/Documents/code/AlgorithmPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AlgorithmPratice.dir/depend.make
@@ -59,133 +59,146 @@ include CMakeFiles/AlgorithmPratice.dir/flags.make
 
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmPratice.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/main.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmPratice.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/main.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/main.cpp
 
 CMakeFiles/AlgorithmPratice.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/main.cpp > CMakeFiles/AlgorithmPratice.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/main.cpp > CMakeFiles/AlgorithmPratice.dir/main.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/main.cpp -o CMakeFiles/AlgorithmPratice.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/main.cpp -o CMakeFiles/AlgorithmPratice.dir/main.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o: ../algorithm/DivideAndConquer/BinarySearch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/BinarySearch.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/BinarySearch.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/BinarySearch.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o: ../algorithm/DivideAndConquer/DivideAndConquer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/DivideAndConquer.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/DivideAndConquer.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/DivideAndConquer.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o: ../algorithm/DivideAndConquer/MergeSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/MergeSort.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/MergeSort.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/MergeSort.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o: ../algorithm/DivideAndConquer/QuictSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/QuictSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/QuictSort.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/QuictSort.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/QuictSort.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/QuictSort.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/QuictSort.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o: ../algorithm/Heap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Heap.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Heap.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Heap.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o: ../algorithm/Solution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: ../algorithm/Solution39.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution39.cpp
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution39.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution39.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o: ../DesignPatterns/StrategyPattern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/StrategyPattern.cpp
 
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/StrategyPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/StrategyPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.s
 
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o: ../DesignPatterns/FlyweightPattern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/FlyweightPattern.cpp
 
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/FlyweightPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.i
 
 CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/FlyweightPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o: ../DesignPatterns/SimpleFactoryPattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o -c /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/SimpleFactoryPattern.cpp
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/SimpleFactoryPattern.cpp > CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.i
+
+CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/SimpleFactoryPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.s
 
 # Object files for target AlgorithmPratice
 AlgorithmPratice_OBJECTS = \
@@ -198,7 +211,8 @@ AlgorithmPratice_OBJECTS = \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o" \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o" \
 "CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o" \
-"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o" \
+"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o"
 
 # External object files for target AlgorithmPratice
 AlgorithmPratice_EXTERNAL_OBJECTS =
@@ -213,9 +227,10 @@ AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o
+AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/build.make
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable AlgorithmPratice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable AlgorithmPratice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlgorithmPratice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -228,6 +243,6 @@ CMakeFiles/AlgorithmPratice.dir/clean:
 .PHONY : CMakeFiles/AlgorithmPratice.dir/clean
 
 CMakeFiles/AlgorithmPratice.dir/depend:
-	cd /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/weizhao/Documents/develop/AlgorithmPratice /Users/weizhao/Documents/develop/AlgorithmPratice /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug /Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhaowei/Documents/code/AlgorithmPractice /Users/zhaowei/Documents/code/AlgorithmPractice /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug /Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AlgorithmPratice.dir/depend
 

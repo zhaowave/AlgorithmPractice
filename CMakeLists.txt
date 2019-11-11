@@ -11,4 +11,4 @@ add_executable(AlgorithmPratice main.cpp
                 algorithm/Heap.cpp
                 algorithm/Solution.cpp
                 algorithm/Solution39.cpp
-        DesignPatterns/StrategyPattern.cpp DesignPatterns/StrategyPattern.h DesignPatterns/FlyweightPattern.cpp DesignPatterns/FlyweightPattern.h)
+        DesignPatterns/StrategyPattern.cpp DesignPatterns/StrategyPattern.h DesignPatterns/FlyweightPattern.cpp DesignPatterns/FlyweightPattern.h DesignPatterns/SimpleFactoryPattern.cpp DesignPatterns/SimpleFactoryPattern.h)

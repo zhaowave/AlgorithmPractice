@@ -4,16 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/QuictSort.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o"
-  "/Users/weizhao/Documents/develop/AlgorithmPratice/main.cpp" "/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/main.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/FlyweightPattern.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/SimpleFactoryPattern.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/SimpleFactoryPattern.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/StrategyPattern.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/BinarySearch.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/BinarySearch.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/DivideAndConquer.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/DivideAndConquer.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/MergeSort.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/MergeSort.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/QuictSort.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Heap.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution39.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o"
+  "/Users/zhaowei/Documents/code/AlgorithmPractice/main.cpp" "/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/CMakeFiles/AlgorithmPratice.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

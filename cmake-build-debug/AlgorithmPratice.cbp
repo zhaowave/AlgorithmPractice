@@ -8,136 +8,142 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug"/>
+				<Option working_dir="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug"/>
+				<Option working_dir="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug"/>
+				<Option working_dir="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AlgorithmPratice">
-				<Option output="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/AlgorithmPratice" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug"/>
+				<Option output="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/AlgorithmPratice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmPratice"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmPratice"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AlgorithmPratice/fast">
-				<Option output="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/AlgorithmPratice" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug"/>
+				<Option output="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/AlgorithmPratice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmPratice/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 AlgorithmPratice/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhaowei/Documents/code/AlgorithmPractice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/FlyweightPattern.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/FlyweightPattern.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/SimpleFactoryPattern.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/StrategyPattern.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/SimpleFactoryPattern.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/StrategyPattern.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/BinarySearch.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/DesignPatterns/StrategyPattern.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/BinarySearch.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/DivideAndConquer.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/BinarySearch.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/DivideAndConquer.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/MergeSort.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/DivideAndConquer.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/QuictSort.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/MergeSort.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/DivideAndConquer/QuictSort.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/MergeSort.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/QuictSort.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/DivideAndConquer/QuictSort.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Heap.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Heap.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.h">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/main.cpp">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution39.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
-		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/CMakeLists.txt">
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/algorithm/Solution39.h">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/main.cpp">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/zhaowei/Documents/code/AlgorithmPractice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

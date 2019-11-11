@@ -8,6 +8,7 @@
 
 #include "DesignPatterns/StrategyPattern.h"
 #include "DesignPatterns/FlyweightPattern.h"
+#include "DesignPatterns/SimpleFactoryPattern.h"
 
 
 using namespace std;
@@ -69,7 +70,8 @@ int main() {
 //    int result = dc->binarySearch(arr, 0, arr.size() - 1, x);
 //    (result == -1) ? cout << "Element is not present in array"
 //                   : cout << "Element is present at index " << result;
-//    StrategyContex::stratetyTest();
+    StrategyContex::stratetyTest();
     FlyweightFactory::FlyweightTest();
+    SimpleFactory::simpleFactoryTest();
     return 0;
 }
