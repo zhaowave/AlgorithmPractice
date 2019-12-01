@@ -312,6 +312,33 @@ algorithm/Heap.cpp.s:
 	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.s
 .PHONY : algorithm/Heap.cpp.s
 
+algorithm/LinkList/LinkList.o: algorithm/LinkList/LinkList.cpp.o
+
+.PHONY : algorithm/LinkList/LinkList.o
+
+# target to build an object file
+algorithm/LinkList/LinkList.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o
+.PHONY : algorithm/LinkList/LinkList.cpp.o
+
+algorithm/LinkList/LinkList.i: algorithm/LinkList/LinkList.cpp.i
+
+.PHONY : algorithm/LinkList/LinkList.i
+
+# target to preprocess a source file
+algorithm/LinkList/LinkList.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.i
+.PHONY : algorithm/LinkList/LinkList.cpp.i
+
+algorithm/LinkList/LinkList.s: algorithm/LinkList/LinkList.cpp.s
+
+.PHONY : algorithm/LinkList/LinkList.s
+
+# target to generate assembly for a file
+algorithm/LinkList/LinkList.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.s
+.PHONY : algorithm/LinkList/LinkList.cpp.s
+
 algorithm/Solution.o: algorithm/Solution.cpp.o
 
 .PHONY : algorithm/Solution.o
@@ -365,6 +392,33 @@ algorithm/Solution39.s: algorithm/Solution39.cpp.s
 algorithm/Solution39.cpp.s:
 	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.s
 .PHONY : algorithm/Solution39.cpp.s
+
+algorithm/Strings/ReverseString.o: algorithm/Strings/ReverseString.cpp.o
+
+.PHONY : algorithm/Strings/ReverseString.o
+
+# target to build an object file
+algorithm/Strings/ReverseString.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o
+.PHONY : algorithm/Strings/ReverseString.cpp.o
+
+algorithm/Strings/ReverseString.i: algorithm/Strings/ReverseString.cpp.i
+
+.PHONY : algorithm/Strings/ReverseString.i
+
+# target to preprocess a source file
+algorithm/Strings/ReverseString.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.i
+.PHONY : algorithm/Strings/ReverseString.cpp.i
+
+algorithm/Strings/ReverseString.s: algorithm/Strings/ReverseString.cpp.s
+
+.PHONY : algorithm/Strings/ReverseString.s
+
+# target to generate assembly for a file
+algorithm/Strings/ReverseString.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmPratice.dir/build.make CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.s
+.PHONY : algorithm/Strings/ReverseString.cpp.s
 
 main.o: main.cpp.o
 
@@ -423,12 +477,18 @@ help:
 	@echo "... algorithm/Heap.o"
 	@echo "... algorithm/Heap.i"
 	@echo "... algorithm/Heap.s"
+	@echo "... algorithm/LinkList/LinkList.o"
+	@echo "... algorithm/LinkList/LinkList.i"
+	@echo "... algorithm/LinkList/LinkList.s"
 	@echo "... algorithm/Solution.o"
 	@echo "... algorithm/Solution.i"
 	@echo "... algorithm/Solution.s"
 	@echo "... algorithm/Solution39.o"
 	@echo "... algorithm/Solution39.i"
 	@echo "... algorithm/Solution39.s"
+	@echo "... algorithm/Strings/ReverseString.o"
+	@echo "... algorithm/Strings/ReverseString.i"
+	@echo "... algorithm/Strings/ReverseString.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

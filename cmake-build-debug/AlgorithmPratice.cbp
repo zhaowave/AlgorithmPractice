@@ -122,6 +122,12 @@
 		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Heap.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/LinkList/LinkList.cpp">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/LinkList/LinkList.h">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
 		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution.cpp">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
@@ -132,6 +138,12 @@
 			<Option target="AlgorithmPratice"/>
 		</Unit>
 		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Solution39.h">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Strings/ReverseString.cpp">
+			<Option target="AlgorithmPratice"/>
+		</Unit>
+		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Strings/ReverseString.h">
 			<Option target="AlgorithmPratice"/>
 		</Unit>
 		<Unit filename="/Users/weizhao/Documents/develop/AlgorithmPratice/main.cpp">

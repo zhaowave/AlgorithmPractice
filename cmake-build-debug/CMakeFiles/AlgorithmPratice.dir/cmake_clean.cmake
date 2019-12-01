@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o"
   "CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o"
   "CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+  "CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o"
+  "CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o"
   "AlgorithmPratice.pdb"
   "AlgorithmPratice"
 )

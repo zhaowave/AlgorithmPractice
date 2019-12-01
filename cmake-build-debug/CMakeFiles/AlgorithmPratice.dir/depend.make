@@ -25,12 +25,18 @@ CMakeFiles/AlgorithmPratice.dir/algorithm/DivideAndConquer/QuictSort.cpp.o: ../a
 CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o: ../algorithm/Heap.cpp
 CMakeFiles/AlgorithmPratice.dir/algorithm/Heap.cpp.o: ../algorithm/Heap.h
 
+CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o: ../algorithm/LinkList/LinkList.cpp
+CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o: ../algorithm/LinkList/LinkList.h
+
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o: ../algorithm/Solution.cpp
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o: ../algorithm/Solution.h
 
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: ../algorithm/Solution.h
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: ../algorithm/Solution39.cpp
 CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o: ../algorithm/Solution39.h
+
+CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o: ../algorithm/Strings/ReverseString.cpp
+CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o: ../algorithm/Strings/ReverseString.h
 
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../DesignPatterns/FlyweightPattern.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../DesignPatterns/StrategyPattern.h
@@ -39,7 +45,9 @@ CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/DivideAndConquer/Divide
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/DivideAndConquer/MergeSort.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/DivideAndConquer/QuictSort.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/Heap.h
+CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/LinkList/LinkList.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/Solution.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/Solution39.h
+CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../algorithm/Strings/ReverseString.h
 CMakeFiles/AlgorithmPratice.dir/main.cpp.o: ../main.cpp
 

@@ -187,6 +187,32 @@ CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/DesignPatterns/FlyweightPattern.cpp -o CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.s
 
+CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
+CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o: ../algorithm/LinkList/LinkList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/LinkList/LinkList.cpp
+
+CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/LinkList/LinkList.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.i
+
+CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/LinkList/LinkList.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.s
+
+CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o: CMakeFiles/AlgorithmPratice.dir/flags.make
+CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o: ../algorithm/Strings/ReverseString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o -c /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Strings/ReverseString.cpp
+
+CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Strings/ReverseString.cpp > CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.i
+
+CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/weizhao/Documents/develop/AlgorithmPratice/algorithm/Strings/ReverseString.cpp -o CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.s
+
 # Object files for target AlgorithmPratice
 AlgorithmPratice_OBJECTS = \
 "CMakeFiles/AlgorithmPratice.dir/main.cpp.o" \
@@ -198,7 +224,9 @@ AlgorithmPratice_OBJECTS = \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o" \
 "CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o" \
 "CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o" \
-"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o"
+"CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o" \
+"CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o" \
+"CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o"
 
 # External object files for target AlgorithmPratice
 AlgorithmPratice_EXTERNAL_OBJECTS =
@@ -213,9 +241,11 @@ AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Solution.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Solution39.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/StrategyPattern.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/DesignPatterns/FlyweightPattern.cpp.o
+AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/LinkList/LinkList.cpp.o
+AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/algorithm/Strings/ReverseString.cpp.o
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/build.make
 AlgorithmPratice: CMakeFiles/AlgorithmPratice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable AlgorithmPratice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/weizhao/Documents/develop/AlgorithmPratice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable AlgorithmPratice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlgorithmPratice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
