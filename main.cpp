@@ -10,6 +10,10 @@
 #include "DesignPatterns/FlyweightPattern.h"
 #include "DesignPatterns/SimpleFactoryPattern.h"
 
+#include "algorithm/LinkList/LinkList.h"
+
+#include "algorithm/Strings/ReverseString.h"
+
 
 using namespace std;
 void RecPermute(string soFar, string rest)
@@ -72,6 +76,14 @@ int main() {
 //                   : cout << "Element is present at index " << result;
     StrategyContex::stratetyTest();
     FlyweightFactory::FlyweightTest();
+
     SimpleFactory::simpleFactoryTest();
+
+    LinkList::reverseList();
+
+    std::string s = "I love   china!";
+    cout<<"after reverse:"<<ReverseString::reverseString(s)<<endl;
+
+    cout<<"local reverse:"<<ReverseString::reverseLocal(s)<<endl;
     return 0;
 }
