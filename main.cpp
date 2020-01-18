@@ -14,6 +14,10 @@
 
 #include "algorithm/Strings/ReverseString.h"
 
+#include "algorithm/Sort/InsertionSort.h"
+#include "algorithm/Sort/BubbleSort.h"
+#include "algorithm/Sort/SelectionSort.h"
+
 
 using namespace std;
 void RecPermute(string soFar, string rest)
@@ -85,5 +89,12 @@ int main() {
     cout<<"after reverse:"<<ReverseString::reverseString(s)<<endl;
 
     cout<<"local reverse:"<<ReverseString::reverseLocal(s)<<endl;
+
+    InsertionSort::runTestCase();
+
+    BubbleSort::runTestCase();
+
+    SelectionSort::runTestCase();
+
     return 0;
 }
