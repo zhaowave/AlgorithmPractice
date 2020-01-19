@@ -17,6 +17,7 @@
 #include "algorithm/Sort/InsertionSort.h"
 #include "algorithm/Sort/BubbleSort.h"
 #include "algorithm/Sort/SelectionSort.h"
+#include "algorithm/Sort/QuickSort.h"
 
 
 using namespace std;
@@ -95,6 +96,8 @@ int main() {
     BubbleSort::runTestCase();
 
     SelectionSort::runTestCase();
+
+    QuickSort::runTestCase();
 
     return 0;
 }
