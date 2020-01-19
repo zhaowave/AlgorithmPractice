@@ -19,5 +19,5 @@ add_executable(AlgorithmPratice main.cpp
                 algorithm/Sort/InsertionSort.cpp algorithm/Sort/InsertionSort.h
                 algorithm/Sort/BubbleSort.cpp algorithm/Sort/BubbleSort.h
                 algorithm/Sort/SortAlgorithm.cpp algorithm/Sort/SortAlgorithm.h
-                algorithm/Sort/SelectionSort.cpp algorithm/Sort/SelectionSort.h algorithm/Sort/QuickSort.cpp algorithm/Sort/QuickSort.h)
+                algorithm/Sort/SelectionSort.cpp algorithm/Sort/SelectionSort.h algorithm/Sort/QuickSort.cpp algorithm/Sort/QuickSort.h algorithm/BinaryTree/BinaryTree.cpp algorithm/BinaryTree/BinaryTree.h)
 
