@@ -5,22 +5,24 @@
 #ifndef ALGORITHMPRATICE_BINARYTREE_H
 #define ALGORITHMPRATICE_BINARYTREE_H
 
+#include <memory>
+
 template <class T>
 class BinaryTree {
 private:
-    T m_data;
-    BinaryTree *m_left = nullptr;
-    BinaryTree *m_right = nullptr;
+    T data;
+    std::shared_ptr<BinaryTree> l;
+    std::shared_ptr<BinaryTree> r;
 public:
     BinaryTree() = default;
-    BinaryTree(T t) {this->m_data = t;}
+    BinaryTree(const T& t) {this->data = t;}
     ~BinaryTree() = default;
-    inline void setData(T t) {this->m_data = t;}
-    inline T getData() {return this->m_data;}
-    inline BinaryTree *left() { return  this->m_left;}
-    inline BinaryTree *right() { return  this->m_right;}
-    inline void setLeft(BinaryTree *l) {this->m_left = l;}
-    inline void setRight(BinaryTree *r) {this->m_right = r;}
+    inline void setData(T t) {this->data = t;}
+    inline T getData() {return this->data;}
+    inline std::shared_ptr<BinaryTree>& left() { return  this->l;}
+    inline std::shared_ptr<BinaryTree>& right() { return  this->r;}
+    inline void setLeft(std::shared_ptr<BinaryTree>& l) {this->l = l;}
+    inline void setRight(std::shared_ptr<BinaryTree>& r) {this->r = r;}
 
     static void preOrder();
     static void postOrder();
